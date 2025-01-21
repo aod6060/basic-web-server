@@ -1,0 +1,3 @@
+# Basic Web Server Example
+
+This is a really simple web server that I built today. It allows you to host static content such as .html, .css, .js, etc. The code base is litterally under 300 lines of code. The only 2 deps in the code base is SDL2 and SDL2_net libraries. I wish C++ would add in a standard networking library but you can have it all. The code base is under the good old MIT license so do what you wish with it. 
