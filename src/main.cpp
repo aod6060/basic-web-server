@@ -165,6 +165,7 @@ void getHttpRequestHeader(
     path = mph[1];
     http = mph[2];
 
+    // GET / HTTP/1.1
     for(int i = 1; i < lines.size(); i++) {
         std::vector<std::string> args;
 
@@ -260,6 +261,8 @@ int main(int argc, char** argv) {
         if(!len) {
             continue;
         }
+
+        //std::cout << request << "\n";
 
         std::string method, path, http;
         std::map<std::string, std::string> header;
